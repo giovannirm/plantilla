@@ -1,0 +1,76 @@
+@font-face {
+    font-family: fontTest;
+    src: url('assets/fonts/metropolis.regular.otf');
+}
+
+*, html, body{
+    margin: 0;
+    padding:0;
+}
+
+img{
+    width: 600px;
+	height: 400px;
+    object-fit: fill;
+}
+
+#table_email{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table_body{
+    background-color: white;
+    width: 100%;
+}
+
+#table_body tr td .label {
+    color: rgb(36,116,188);
+    font-weight: 900;
+}
+
+.red_salud{
+    color: rgb(28,164,132);
+    font-weight: bold;
+}
+
+.cuadro{
+    position:relative;
+}
+
+.cuadro_texto{
+    position:absolute;
+    left:200px;
+    top:25px;
+    width: 300px;
+}
+
+
+td{
+    font-family: fontTest;
+    color: rgb(104,104,105);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.name{
+    color: rgba(34, 113, 190); /*#2271BE*/
+    font-style: italic;
+    font-weight: 900;
+}
+
+
+
+.dotted_line{
+    border-top-style: dashed;
+    border-top-width: 1px;
+    border-top-color: rgba(172,214,254,255);
+}
+
+/* .cuadro{
+    height: 180px;
+    background-image: url("./assets/cuadro.png");
+    background-repeat: no-repeat;
+    padding: 0px 200px 0px 220px;
+} */
